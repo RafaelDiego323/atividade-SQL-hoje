@@ -1,0 +1,6 @@
+SELECT
+City AS 'Cidade:'
+
+FROM Customers
+WHERE City LIKE 'Franca%'
+ORDER BY City ASC
