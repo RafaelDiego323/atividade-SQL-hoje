@@ -1,0 +1,5 @@
+SELECT CITY AS 'CIDADE',
+CustomerName AS 'EMPRESA'
+FROM Customers 
+WHERE  CustomerName LIKE 'frança'
+ORDER BY CustomerName ASC
