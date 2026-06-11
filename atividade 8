@@ -1,0 +1,5 @@
+SELECT City AS 'Cidade:',
+ Country AS 'oi'
+FROM Customers
+WHERE City LIKE 'canada'
+ORDER BY PostalCode ASC
