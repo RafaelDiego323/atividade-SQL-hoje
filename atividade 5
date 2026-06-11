@@ -1,0 +1,5 @@
+SELECT City AS 'Cidade:',
+ CustomerName AS 'oi'
+FROM Customers
+WHERE City LIKE 'BERLIN'
+ORDER BY CustomerName ASC
