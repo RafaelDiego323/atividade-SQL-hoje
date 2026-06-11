@@ -1,0 +1,4 @@
+SELECT CustomerName AS 'nome'
+FROM Customers
+WHERE  CustomerName LIKE 'a%'
+ORDER BY CustomerName ASC
