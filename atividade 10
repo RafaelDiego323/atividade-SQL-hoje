@@ -1,0 +1,3 @@
+SELECT * FROM customers
+ WHERE Country LIKE '%mexico%'
+ ORDER BY CustomerID
