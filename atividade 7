@@ -1,0 +1,5 @@
+SELECT City AS 'Cidade:',
+ CustomerName AS 'oi'
+FROM Customers
+WHERE ContactName LIKE 'A%'
+ORDER BY CustomerID ASC
